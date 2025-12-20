@@ -1,5 +1,179 @@
 *{
  margin: 0;
  padding: 0;
- font-size: 16px;
 }
+
+.quicksand{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.navbar{
+    width: 85%;
+    height: 80px;
+    margin: auto;
+}
+.navlogo{
+    display: flex;
+    gap: 5px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlogo{
+    align-items: center;
+}
+.navlogo p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navlist ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+ul li{
+    font-size: 1.15rem;
+    
+}
+
+.orange{
+    font-weight: bold;
+    color: orange;
+}
+.sky{
+    color: skyblue;
+}
+.aqua{
+    color: rgb(5, 212, 223);
+}
+.purple{
+    color: rgb(93, 88, 239);
+}
+ul li a{
+    text-decoration: none;
+}
+.btn{
+    background-color: orange;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.hero-container{
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hero-text h1{
+    font-size: 3.5rem;
+    margin-bottom: 1.15rem;
+}
+.color-inhead1{
+    color: orange;
+}
+.color-inhead2{
+    color: rgb(1, 172, 253);
+}
+.hero-text  {
+    width: 45%;
+}
+
+.hero-text p{
+    color: black;
+    font-size: 1.15rem;
+    margin-bottom: 1.25rem;
+}
+.btn2{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 192px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 auto;
+    font-size: 1.15rem;
+}
+.btn1{
+    color: white;
+    background-color: orange;
+    height: 50px;
+    width: 192px;
+    border: none;
+    border-radius: 15px;
+    padding: 0 auto;
+    font-size: 1.15rem;
+}
+
+
+ @media (max-width:640px){
+   
+     
+   ul li{
+    visibility: hidden;
+   }
+
+
+   .btn1{
+    height: 42px;
+    width: 128px;
+   }
+   .navbar{
+    width: 95%;
+    justify-content: space-around;
+   }
+
+   .hero-container{
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: auto;
+    width: 85%;
+
+    
+    
+    
+    
+   }
+   .hero-img{
+    width: 60%;
+   }
+   .hero-text h1{
+    font-size: 2rem;
+    
+   }
+   .hero-text p{
+    font-size: .90rem;
+   }
+  
+  
+}
+.curriculam{
+    width: 85%;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+ .card{
+    width: 30%;
+    max-width: 470px;
+    min-width: 150px;
+ }
+ .card-text{
+    
+ }
+.curriculam-cards{
+    display: flex;
+}
+
+@media (max-width:640px) {
+     .curriculam-cards{
+        flex-direction: column;
+     }
+}
+
