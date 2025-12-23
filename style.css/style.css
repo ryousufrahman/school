@@ -154,6 +154,12 @@ ul li a{
   
   
 }
+
+.curriculam-title{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+}
 .curriculam{
     width: 85%;
     margin: 0 auto;
@@ -163,17 +169,50 @@ ul li a{
     width: 30%;
     max-width: 470px;
     min-width: 150px;
+    padding: 30px;
+    padding-top: 30px;
+    
+    max-height: 476px;
+    border: 1px solid black;
  }
  .card-text{
-    
+    margin-top: 20px;
+    text-align: center;
  }
 .curriculam-cards{
     display: flex;
+    gap: 5%;
+    margin-bottom: 100px;
+
+}
+.card-text a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.link-color1{
+    color: skyblue;
+    font-weight: bold;
+}
+.link-color2{
+    color: #F0AA00;
+    font-weight: bold;
+}
+.link-color3 {
+    color: purple;
+    font-weight: bold;
+}
+.card-text h3{
+    font-size: 1.85rem;
+}
+.card-text p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #808080;
+}
+.card-img{
+    text-align: center;
 }
 
-@media (max-width:640px) {
-     .curriculam-cards{
-        flex-direction: column;
-     }
-}
+
+
 
