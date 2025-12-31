@@ -170,6 +170,7 @@ ul li a{
     width: 85%;
     margin: 0 auto;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
  .card{
     width: 30%;
@@ -225,6 +226,19 @@ ul li a{
 .card-img{
     text-align: center;
 }
+.circle-container{
+    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: orange;
+}
 
 @media (max-width:640px){
 
@@ -243,6 +257,7 @@ ul li a{
 .curriculam-cards{
     flex-direction: column;
     gap: 10px;
+   
 }
 .card {
     min-width: 357px;
@@ -260,7 +275,10 @@ ul li a{
     margin-top: 10px;
 }
 .curriculam{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+.circle-container{
+    visibility: hidden;
 }
 
 
