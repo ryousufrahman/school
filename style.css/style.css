@@ -239,6 +239,24 @@ ul li a{
     border-radius: 50%;
     background-color: orange;
 }
+.circle i{
+    font-size: 16px;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.card1{
+    background: linear-gradient(to top , white 10%, skyblue );
+    border: 1px solid skyblue;
+}
+.card2{
+    background: linear-gradient(to top , white 10%, #F0AA00 );
+    border: 1px solid #F0AA00;
+
+}
+.card3{
+    background: linear-gradient(to top , white 10%, purple );
+    border: 1px solid purple;}
 
 @media (max-width:640px){
 
