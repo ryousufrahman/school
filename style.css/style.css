@@ -117,7 +117,7 @@ ul li a{
    
      
    ul li{
-    visibility: hidden;
+    display: none;
    }
 
 
@@ -126,23 +126,20 @@ ul li a{
     width: 128px;
    }
    .navbar{
-    width: 95%;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-evenly;
    }
 
    .hero-container{
     flex-direction: column-reverse;
-    justify-content: center;
-    margin: auto;
-    width: 85%;
 
+    width: 100%;
     
-    
-    
-    
-   }
+ }
    .hero-img{
-    width: 60%;
+    width: 100%;
+    justify-content: center;
+    max-width: 98%;
    }
    .hero-text h1{
     font-size: 2rem;
@@ -268,17 +265,17 @@ ul li a{
     justify-content: center;
   }
   .curriculam{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     
 }
 .curriculam-cards{
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
    
 }
 .card {
-    min-width: 357px;
+    width: 95%;
     max-height: 321px;
 }
 .card-text a{
@@ -296,7 +293,7 @@ ul li a{
     margin-bottom: 50px;
 }
 .circle-container{
-    visibility: hidden;
+    display: none;
 }
 
 
